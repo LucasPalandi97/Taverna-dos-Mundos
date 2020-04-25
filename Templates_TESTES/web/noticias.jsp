@@ -64,7 +64,7 @@
         </div>
 
         <!-- Welcome Blog Slide Area Start -->
-        <section class="welcome-blog-post-slide owl-carousel">
+        <section class="welcome-blog-post-slide owl-carousel bg-dark">
             <!-- Single Blog Post -->
             <div class="single-blog-post-slide bg-img background-overlay-5" style="background-image: url(images/dndPrevenda.png);">
                 <!-- Single Blog Post Content -->

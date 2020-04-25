@@ -49,7 +49,7 @@
 	    </div>
 	  </nav>
             <div><img class="imagehome" src='images/Fundo-barra-de-menu.png'></div>
-         <section  class="ftco-section ftco-no-pt">
+         <section  class="ftco-section ftco-no-pt bg-dark">
             <div class="container-fluid px-md-5">
                 <div class="row justify-content-center mb-5 pb-3">
                     <div class="col-md-7 text-center heading-section ftco-animate">

@@ -19,7 +19,7 @@
 
         <link rel="stylesheet" href="css/ionicons.min.css">
 
-        <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="css/flaticon.css">
         <link rel="stylesheet" href="css/icomoon.css">
         <link rel="stylesheet" href="css/style.css">
          <!-- Favicon  -->
@@ -50,10 +50,10 @@
         
         <div class="hero-wrap js-fullheight" style="max-height:744px!important; background-image: url('images/forja.jpg');" data-stellar-background-ratio="0.5">  
         </div>
-       <section class="ftco-section">
+       <section class="ftco-section bg-dark">
     	<div class="container">
         <div id='forja_mundos' class="row d-flex justify-content-center">
-        	<div class="descmundos col-lg-2-4 col-md-4 text-center">                 
+        	<div class="descmundos col-lg-4 col-md-4 text-center">                 
                     <div class="practice-area ftco-animate">        
         			<div class="icon d-flex justify-content-center align-items-center">
         				<span class="flaticon-avakirin"></span>                                      
@@ -65,7 +65,7 @@
                                <div class="imageoverlay" style="background-image: url('images/forja/avakirin_bg.jpg')"></div>     		
                       </div>
         	</div>
-            <div class="descmundos col-lg-2-4 col-md-4  text-center">
+            <div class="descmundos col-lg-4 col-md-4  text-center">
         		<div class="practice-area ftco-animate">
         			<div class="icon d-flex justify-content-center align-items-center">
         				<span class="flaticon-tariel"></span>
@@ -76,7 +76,7 @@
                                 <div class="imageoverlay" style="background-image: url('images/forja/tariel_bg.jpg')"></div>
         		</div>
         	  </div>
-        	<div class="descmundos col-lg-2-4 col-md-4  text-center">
+        	<div class="descmundos col-lg-4 col-md-4  text-center">
         		<div class="practice-area ftco-animate">
         			<div class="icon d-flex justify-content-center align-items-center">
         				<span class="flaticon-tantalos"></span>

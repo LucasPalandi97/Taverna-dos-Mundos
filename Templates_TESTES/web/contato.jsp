@@ -50,7 +50,7 @@
 	  </nav>
            
         <div><img class="imagehome" src='images/Fundo-barra-de-menu.png'></div>
-        <section  class="ftco-consultation ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/bg_2.jpg);">
+        <section  class="ftco-consultation ftco-section ftco-no-pt ftco-no-pb img bg-dark" style="background-image: url(images/bg_2.jpg);">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row d-md-flex justify-content-end">

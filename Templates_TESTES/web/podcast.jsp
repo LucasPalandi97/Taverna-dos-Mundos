@@ -50,7 +50,7 @@
         
         <div class="hero-wrap js-fullheight" style="max-height:744px!important; background-image: url('images/TavernadosMundosFull.jpg');" data-stellar-background-ratio="0.5">
         </div>
-        <section class="ftco-section">
+        <section class="ftco-section bg-dark">
     	<div class="container">
         <div class="row">
         	<div class="col-md-4 ftco-animate">

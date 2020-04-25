@@ -159,7 +159,7 @@
     color:#3b87e6!important;
 }
 div#forja_mundos p{
-    color:rgba(0, 0, 0, 0.6);
+    color:rgba(255, 255, 255, 0.7);
 }
 
 .imageoverlay{
@@ -8305,7 +8305,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
     font-family: "TextMain", Arial, sans-serif;
-    background: #fff;
+    background: #212529 !important;
     font-size: 16px;
     line-height: 1.8;
     font-weight: 400;
@@ -8895,7 +8895,7 @@ h1, h2, h3, h4, h5,
     -ms-border-radius: 50%;
     border-radius: 50%; }
 .practice-area .icon span {
-    font-size: 50px;
+    font-size: 65px;
     color: #3b87e6;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -8906,7 +8906,7 @@ h1, h2, h3, h4, h5,
     font-size: 20px; }
 .practice-area h3 a {
     font-family: TituloMain;
-    color: #000000; }
+    color: #fff; }
 .practice-area .btn-custom {
     position: absolute;
     bottom: 0px;
