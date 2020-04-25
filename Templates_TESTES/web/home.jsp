@@ -108,7 +108,7 @@
                             <div class="text px-4 py-4">
                                 <h3 class="heading mb-0"><a class="white-a" href="#">Exemplo de podcast</a></h3>
                             </div>
-                            <a href="blog-single.html" class="block-20" style="background-image: url('images/podcast.jpg');">
+                            <a href="blog-single.html" class="block-20 caseHome" style="background-image: url('images/podcast.jpg');">
                             </a>
                             <div class="text p-4 float-right d-block">
                                 <div class="topper d-flex align-items-center">
@@ -121,7 +121,7 @@
                                     </div>
                                 </div>
                                 <p>Confira o novo podcast sobre as expectativas de Cyberpunk 2077.</p>
-                                <p><a href="#" class="btn btn-primary">Ler mais</a></p>
+<!--                                <p><a href="#" class="btn btn-primary">Ler mais</a></p>-->
                             </div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                             <div class="text px-4 py-4">
                                 <h3 class="heading mb-0"><a href="#" class="white-a">Exemplo de mundo</a></h3>
                             </div>
-                            <a href="blog-single.html" class="block-20" style="background-image: url('images/mundomedieval.jpg');">
+                            <a href="blog-single.html" class="block-20 caseHome" style="background-image: url('images/mundomedieval.jpg');">
                             </a>
                             <div class="text p-4 float-right d-block">
                                 <div class="topper d-flex align-items-center">
@@ -143,7 +143,7 @@
                                     </div>
                                 </div>
                                 <p>O mundo de Tariel é uma criação original do Taverna dos mundos, conheça o mundo fantasioso criado pelo taverneiro Guedes!</p>
-                                <p><a href="#" class="btn btn-primary">Ler mais</a></p>
+<!--                                <p><a href="#" class="btn btn-primary">Ler mais</a></p>-->
                             </div>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
                                     </div>
                                 </div>
                                 <p>O novo arquétipo de bruxo baseado no sistema D&D 5E, conheça suas habilidades. </p>
-                                <p><a href="#" class="btn btn-primary">Ler mais</a></p>
+<!--                                <p><a href="#" class="btn btn-primary">Ler mais</a></p>-->
                             </div>
                         </div>
                     </div>

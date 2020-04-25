@@ -163,13 +163,14 @@ div#forja_mundos p{
 }
 
 .imageoverlay{
+    box-shadow: 0px 5px 11px 5px rgba(0, 0, 0, 0.4); 
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .5;
+    opacity: .7;
     z-index: -1;
     cursor: pointer;
     background-size: cover;
@@ -9471,6 +9472,8 @@ textarea.form-control {
     height: 270px; }
 
 .blog-entry {
+    box-shadow: 0px 5px 11px 5px rgba(0, 0, 0, 0.4); 
+    background-color:#3c444a;
     overflow: hidden; }
 @media (min-width: 768px) {
     .blog-entry {
@@ -9479,8 +9482,7 @@ textarea.form-control {
     .blog-entry {
         margin-bottom: 30px; } }
 .blog-entry .text {
-    position: relative;
-    background: #3c444a;
+    position: relative; 
     width: 100%;
     margin: 0 auto; }
 .blog-entry .text .topper {
