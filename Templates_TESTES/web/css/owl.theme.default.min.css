@@ -1,0 +1,15 @@
+/**
+ * owlhome Carousel v2.2.1
+ * Copyright 2013-2017 David Deutsch
+ * Licensed under  ()
+ */
+.owlhome-theme .owlhome-dots,
+.owlhome-theme .owlhome-nav{text-align:center;-webkit-tap-highlight-color:transparent}
+.owlhome-theme .owlhome-nav{margin-top:10px}
+.owlhome-theme .owlhome-nav [class*=owlhome-]{color:#FFF;font-size:14px;margin:5px;padding:4px 7px;background:#D6D6D6;display:inline-block;cursor:pointer;border-radius:3px;position: absolute;}
+.owlhome-theme .owlhome-nav [class*=owlhome-]:hover{background:#869791;color:#FFF;text-decoration:none}
+.owlhome-theme .owlhome-nav .disabled{opacity:.5;cursor:default}
+.owlhome-theme .owlhome-nav.disabled+.owlhome-dots{margin-top:10px}
+.owlhome-theme .owlhome-dots .owlhome-dot{display:inline-block;zoom:1}
+.owlhome-theme .owlhome-dots .owlhome-dot span{width:10px;height:10px;margin:5px 7px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}
+.owlhome-theme .owlhome-dots .owlhome-dot.active span,.owlhome-theme .owlhome-dots .owlhome-dot:hover span{background:#869791}
