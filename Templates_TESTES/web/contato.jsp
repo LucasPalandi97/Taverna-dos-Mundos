@@ -25,9 +25,19 @@
         
          <!-- Favicon  -->
         <link rel="icon" href="images/core-img/favicon.ico">
+         <style>
+            .navbarhome{
+                opacity:1;
+                visibility: visible;
+            }
+        </style>
     </head>
     <body>
-           <a class="navbarhome-logo" href="home.jsp"><img src="images/LogoTDM.png"></a>
+        <script>        
+            function HomeRedirect() {
+                window.location.href = "home.jsp";}
+        </script>
+          
 <nav class="navbarhome px-md-0 navbarhome-expand-lg navbarhome-dark ftco_navbar bg-dark ftco-navbarhome-light" id="ftco-navbarhome">
 	    <div class="container">
 	      <a class="navbarhome-brand" href="home.jsp"><img  src="images/LogoTDM.png" ></a>

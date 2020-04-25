@@ -26,10 +26,14 @@
         <link rel="icon" href="images/core-img/favicon.ico">
     </head>
     <body>
-             <a class="navbarhome-logo" href="home.jsp"><img src="images/LogoTDM.png"></a>
+        <script>        
+            function HomeRedirect() {
+                window.location.href = "home.jsp";}
+        </script>
+             <a class="navbarhome-logo" ><img onclick="HomeRedirect()" src="images/LogoTDM.png"></a>
 <nav class="navbarhome px-md-0 navbarhome-expand-lg navbarhome-dark ftco_navbar bg-dark ftco-navbarhome-light" id="ftco-navbarhome">
 	    <div class="container">
-	      <a class="navbarhome-brand" href="home.jsp"><img  src="images/LogoTDM.png" ></a>
+	      <a class="navbarhome-brand" href="home.jsp"><img src="images/LogoTDM.png" ></a>
 	      <button class="navbarhome-toggler" type="button" data-toggle="collapse" data-target="#ftco-navhome" aria-controls="ftco-navhome" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>

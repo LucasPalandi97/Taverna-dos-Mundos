@@ -37,8 +37,12 @@
         <link href="css-noticias/responsive.css" rel="stylesheet">
     </head>
     <body>
+        <script>        
+            function HomeRedirect() {
+                window.location.href = "home.jsp";}
+        </script>
         <!-- Header Area Start -->
-       <a class="navbarhome-logo" href="home.jsp"><img src="images/LogoTDM.png"></a>
+       <a class="navbarhome-logo"><img onclick="HomeRedirect()" src="images/LogoTDM.png"></a>
 <nav class="navbarhome px-md-0 navbarhome-expand-lg navbarhome-dark ftco_navbar bg-dark ftco-navbarhome-light" id="ftco-navbarhome">
 	    <div class="container">
 	      <a class="navbarhome-brand" href="home.jsp"><img  src="images/LogoTDM.png" ></a>

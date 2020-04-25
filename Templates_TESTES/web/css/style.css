@@ -45,9 +45,9 @@
 
 /*responsivo*/
 @media (min-width: 992px) {
-    .navbarhome{
-       
+    .navbarhome{      
         opacity: 0;
+        visibility: hidden;
     }
 
     .navbarhome-brand img{
@@ -75,7 +75,7 @@
     .navbarhome-logo{
         opacity: 0;
     }
-
+   
     .hero-wrap{
         padding-top: 10px;
         display:block!important;
@@ -193,6 +193,7 @@ div#forja_mundos p{
     /*    width:100px;*/
 }
 .navbarhome-logo img{
+    cursor: pointer;
     z-index: 10;
     width:200px;
     height: 92px;
@@ -302,7 +303,12 @@ div#forja_mundos p{
     width:100%;
     height:240px;
 }
-
+ /* inner shadow */
+.shadowInset {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) ;
+   box-shadow: inset 0 11rem 3rem -40px rgba(0, 0, 0, 0.7) !important
+}
+/**/
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -355,7 +361,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #fff;
     text-align: left;
     background-color: #fff; }
 
@@ -8306,7 +8312,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
     font-family: "TextMain", Arial, sans-serif;
-    background: #212529 !important;
+    background: #fff !important;
     font-size: 16px;
     line-height: 1.8;
     font-weight: 400;
@@ -8475,7 +8481,7 @@ h1, h2, h3, h4, h5,
         padding-right: 0rem !important; } }
 .ftco-navbarhome-light.scrolled .navbarhome-toggler {
     border: none;
-    color: rgba(0, 0, 0, 0.5) !important;
+/*    color: rgba(0, 0, 0, 0.5) !important;*/
     border-color: rgba(0, 0, 0, 0.5) !important;
     cursor: pointer;
     padding-right: 0;
