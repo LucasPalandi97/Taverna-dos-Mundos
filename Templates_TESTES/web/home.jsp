@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Taverna dos Mundos 2.0 </title>
+        <title>Taverna dos Mundos</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
@@ -15,8 +15,11 @@
         <link rel="stylesheet" href="css/flaticon.css">
         <link rel="stylesheet" href="css/icomoon.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/tdm-style.css">
         <!-- Favicon  -->
         <link rel="icon" href="images/core-img/favicon.ico">
+         <!-- Flickity-->
+        <link rel="stylesheet" href="css/flickity.css" media="screen">   
          <style>
           @media (min-width: 992px) {
     .navbarhome{      
@@ -79,82 +82,44 @@
             </div>      
         </div>
         <div style="background-color: black; height:10px;"></div>   
-        <section class="ftco-section bg-dark">
-            <div class="container">
+        <section class="ftco-section bg-dark" style="padding-top:4em;">
+            <div class="container" id="containerSlide">
                 <div class="row justify-content-center mb-5 pb-3">
                     <div class="col-md-7 heading-section text-center ftco-animate">
                         <span class="subheading">Nosso conteúdo</span>
                         <h2>Novidades da taverna</h2>                      
                     </div>
                 </div>
-                <div class="row d-flex">
-                    <div class="col-md-4 d-flex ftco-animate">
-                        <div class="blog-entry justify-content-end">
-                            <div class="text px-4 py-4">
-                                <h3 class="heading mb-0"><a class="white-a" href="#">Exemplo de podcast</a></h3>
-                            </div>
-                            <a href="blog-single.html" class="block-20 caseHome" style="background-image: url('images/podcast.jpg');">
-                            </a>
-                            <div class="text p-4 float-right d-block">
-                                <div class="topper d-flex align-items-center">
-                                    <div class="one py-2 pl-3 pr-1 align-self-stretch">
-                                        <span class="day">24</span>
-                                    </div>
-                                    <div class="two pl-0 pr-3 py-2 align-self-stretch">
-                                        <span class="yr">2020</span>
-                                        <span class="mos">Janeiro</span>
-                                    </div>
-                                </div>
-                                <p>Confira o novo podcast sobre as expectativas de Cyberpunk 2077.</p>
-<!--<p><a href="#" class="btn btn-primary">Ler mais</a></p>-->
-                            </div>
-                        </div>
+           
+                <div class="gallery js-flickity"
+                     data-flickity-options='{"autoPlay": 6000, "freescrol": true, "wrapAround": true, "selectedAttraction": 0.01, "friction": 0.15, "imagesLoaded": true }'>
+                    <div class="gallery-cell" >
+                        <img src="images/Cyberpunk-2077.jpg">
+                        <div class="topleft"><h2>Titulo do artigo</h2></div>
+                        <div class="centerbottom"><p>Subtitulo do artigo</p></div>
                     </div>
-                    <div class="col-md-4 d-flex ftco-animate">
-                        <div class="blog-entry justify-content-end">
-                            <div class="text px-4 py-4">
-                                <h3 class="heading mb-0"><a href="#" class="white-a">Exemplo de mundo</a></h3>
-                            </div>
-                            <a href="blog-single.html" class="block-20 caseHome" style="background-image: url('images/mundomedieval.jpg');">
-                            </a>
-                            <div class="text p-4 float-right d-block">
-                                <div class="topper d-flex align-items-center">
-                                    <div class="one py-2 pl-3 pr-1 align-self-stretch">
-                                        <span class="day">18</span>
-                                    </div>
-                                    <div class="two pl-0 pr-3 py-2 align-self-stretch">
-                                        <span class="yr">2019</span>
-                                        <span class="mos">Fevereiro</span>
-                                    </div>
-                                </div>
-                                <p>O mundo de Tariel é uma criação original do Taverna dos mundos, conheça o mundo fantasioso criado pelo taverneiro Guedes!</p>
-<!--<p><a href="#" class="btn btn-primary">Ler mais</a></p>-->
-                            </div>
-                        </div>
+                    <div class="gallery-cell" >
+                         <img src="images/ChildrenOfZodiarcs.jpg">
+                         <div class="topleft"><h2>Titulo do artigo</h2></div>
+                         <div class="centerbottom"><p>Subtitulo do artigo</p></div>
                     </div>
-                    <div class="col-md-4 d-flex ftco-animate">
-                        <div class="blog-entry justify-content-end">
-                            <div class="text px-4 py-4">
-                                <h3 class="heading mb-0"><a href="#" class="white-a">Exemplo de artigo</a></h3>
-                            </div>
-                            <a href="blog-single.html" class="block-20 caseHome" style="background-image: url('images/bruxoarcano.jpg');">
-                            </a>
-                            <div class="text p-4 float-right d-block">
-                                <div class="topper d-flex align-items-center">
-                                    <div class="one py-2 pl-3 pr-1 align-self-stretch">
-                                        <span class="day">8</span>
-                                    </div>
-                                    <div class="two pl-0 pr-3 py-2 align-self-stretch">
-                                        <span class="yr">2019</span>
-                                        <span class="mos">Janeiro</span>
-                                    </div>
-                                </div>
-                                <p>O novo arquétipo de bruxo baseado no sistema D&D 5E, conheça suas habilidades. </p>
-<!-- <p><a href="#" class="btn btn-primary">Ler mais</a></p>-->
-                            </div>
-                        </div>
+                    <div class="gallery-cell" >
+                         <img src="images/bruxoarcano.jpg">
+                         <div class="topleft"><h2>Titulo do artigo</h2></div>
+                         <div class="centerbottom"><p>Subtitulo do artigo</p></div>
+                    </div>
+                    <div class="gallery-cell" >
+                         <img src="images/star_wars.jpg">
+                         <div class="topleft"><h2>Titulo do artigo</h2></div>
+                         <div class="centerbottom"><p>Subtitulo do artigo</p></div>
+                    </div>
+                    <div class="gallery-cell" >
+                         <img src="images/pirates.jpg">
+                         <div class="topleft"><h2>Titulo do artigo</h2></div>
+                         <div class="centerbottom"><p>Subtitulo do artigo</p></div>
                     </div>
                 </div>
+                
             </div>
         </section>
 
@@ -206,6 +171,10 @@
             <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
             </svg>
         </div>
+         <!-- Flickity-->
+        <script src="js/flickity.pkgd.min.js"></script>
+        <script src="https://unpkg.com/flickity-bg-lazyload@1/bg-lazyload.js"></script>
+        <!-- -->
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery-migrate-3.0.1.min.js"></script>
         <script src="js/popper.min.js"></script>

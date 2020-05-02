@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/flaticon.css">
         <link rel="stylesheet" href="css/icomoon.css">
         <link rel="stylesheet" href="css/style.css">
+         <link rel="stylesheet" href="css/tdm-style.css">
         <!-- Favicon  -->
         <link rel="icon" href="images/core-img/favicon.ico">
     </head>
@@ -65,7 +66,7 @@
                             <div class="text text-center">
                                 <h3><a href="#">Call of Cthullhu</a></h3>
                                 <span>Conheça mais sobre o tenebroso universo de Call of Cthullhu e experiências dos Taverneiros.</span><br> 
-                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='audio/dancin-extended-version.mp3'>Ouvir Online</a>
+                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='#'>Ouvir Online</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +75,7 @@
                             <div class="text text-center">
                                 <h3><a href="#">Cyberpunk 2077</a></h3>
                                 <span>Intensas expectativas sobre o novo Cyberpunk 2077, confira o que vimos até agora.</span><br> 
-                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='audio/dancin-extended-version.mp3'>Ouvir Online</a>
+                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='#'>Ouvir Online</a>
                             </div>
                         </div>
                     </div>
@@ -83,7 +84,7 @@
                             <div class="text text-center">
                                 <h3><a href="#">Arquétipo Guerreiro alado D&D5E</a></h3>
                                 <span>Conheça mais sobre o arquétipo de guerreiro alado criado pela Taverna dos Mundos</span><br> 
-                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='audio/dancin-extended-version.mp3'>Ouvir Online</a>
+                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='#'>Ouvir Online</a>
                             </div>
                         </div>
                     </div>
@@ -92,7 +93,7 @@
                             <div class="text text-center">
                                 <h3><a href="#">Baldur's gate 3</a></h3>
                                 <span>O que esperamos sobre Baldur's Gate 3, discutimos sobre seu universo e as novas mecânicas apresentadas.</span>  <br>                                     
-                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='audio/dancin-extended-version.mp3'>Ouvir Online</a>
+                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='#'>Ouvir Online</a>
                             </div>
                         </div>
                     </div>
@@ -101,7 +102,7 @@
                             <div class="text text-center">
                                 <h3><a href="#">Steam punk</a></h3>
                                 <span>Discutimos sobre o estilo steam punk e aplicações no mundo do entretenimento</span><br> 
-                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='audio/dancin-extended-version.mp3'>Ouvir Online</a>
+                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='#'>Ouvir Online</a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +111,7 @@
                             <div class="text text-center">
                                 <h3><a href="#">Piratas nos RPG's</a></h3>
                                 <span>Falamos sobre os mais icônicos piratas e sobre suas características nos RPG's</span><br> 
-                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='audio/dancin-extended-version.mp3'>Ouvir Online</a>
+                                <a href='audio/dancin-extended-version.mp3' download>Baixe Agora</a><br><a href='#'>Ouvir Online</a>
                             </div>
                         </div>
                     </div>
