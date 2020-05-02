@@ -18,9 +18,9 @@
         <!-- Favicon  -->
         <link rel="icon" href="images/core-img/favicon.ico">
         <!-- Flickity-->
-        <link rel="stylesheet" href="css/flickity.css" media="screen">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/flickity.css" media="screen">      
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/tdm-style.css">
     </head>
     <body>
         <script>
@@ -63,19 +63,11 @@
                 </div>
             </div>
         </div>
-        <!-- Flickity HTML init -->
-        <section class="ftco-section bg-dark" style="padding-top: 3em;">
-            <div id="containerSlide" class="container">   
-                <div class="gallery js-flickity"
-                     data-flickity-options='{"autoPlay": 6000, "freescrol": true, "wrapAround": true, "selectedAttraction": 0.01, "friction": 0.15 }'>
-                    <div class="gallery-cell"></div>
-                    <div class="gallery-cell"></div>
-                    <div class="gallery-cell"></div>
-                    <div class="gallery-cell"></div>
-                    <div class="gallery-cell"></div>
-                </div> <br><br>
+       
+                 <section class="ftco-section bg-dark" >
+            <div id="containerArtigos" class="container">   
                 <div class="row d-flex">
-                    <div class="col-md-3 d-flex ftco-animate">
+                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex ftco-animate">
                         <div class="blog-entry justify-content-end">
                             <div class="text px-4 py-4">
                                 <h3 class="heading mb-0"><a class="white-a" href="#">Artigo #1</a></h3>
@@ -97,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex ftco-animate">
+                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex ftco-animate">
                         <div class="blog-entry justify-content-end">
                             <div class="text px-4 py-4">
                                 <h3 class="heading mb-0"><a class="white-a" href="#">Artigo #2</a></h3>
@@ -119,7 +111,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex ftco-animate">
+                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex ftco-animate">
                         <div class="blog-entry justify-content-end">
                             <div class="text px-4 py-4">
                                 <h3 class="heading mb-0"><a href="#" class="white-a">Artigo #3</a></h3>
@@ -141,7 +133,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex ftco-animate">
+                    <div class="col-xl-3 col-lg-4 col-md-6 d-flex ftco-animate">
                         <div class="blog-entry justify-content-end">
                             <div class="text px-4 py-4">
                                 <h3 class="heading mb-0"><a href="#" class="white-a">Artigo #4</a></h3>
@@ -163,8 +155,97 @@
                             </div>
                         </div>
                     </div>
+                     <div class="col-xl-3 col-lg-4 col-md-6 d-flex ftco-animate">
+                        <div class="blog-entry justify-content-end">
+                            <div class="text px-4 py-4">
+                                <h3 class="heading mb-0"><a href="#" class="white-a">Artigo #5</a></h3>
+                            </div>
+                            <a href="blog-single.html" class="block-20 caseHome" style="background-image: url('images/bruxoarcano.jpg');">
+                            </a>
+                            <div class="text p-4 float-right d-block">
+                                <div class="topper d-flex align-items-center">
+                                    <div class="one py-2 pl-3 pr-1 align-self-stretch">
+                                        <span class="day">8</span>
+                                    </div>
+                                    <div class="two pl-0 pr-3 py-2 align-self-stretch">
+                                        <span class="yr">2019</span>
+                                        <span class="mos">Janeiro</span>
+                                    </div>
+                                </div>
+                                <p>O novo arquétipo de bruxo baseado no sistema D&D 5E, conheça suas habilidades. </p>
+                                <p><a href="#" class="btn btn-primary">Ler mais</a></p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-xl-3 col-lg-4 col-md-6 d-flex ftco-animate">
+                        <div class="blog-entry justify-content-end">
+                            <div class="text px-4 py-4">
+                                <h3 class="heading mb-0"><a href="#" class="white-a">Artigo #6</a></h3>
+                            </div>
+                            <a href="blog-single.html" class="block-20 caseHome" style="background-image: url('images/bruxoarcano.jpg');">
+                            </a>
+                            <div class="text p-4 float-right d-block">
+                                <div class="topper d-flex align-items-center">
+                                    <div class="one py-2 pl-3 pr-1 align-self-stretch">
+                                        <span class="day">8</span>
+                                    </div>
+                                    <div class="two pl-0 pr-3 py-2 align-self-stretch">
+                                        <span class="yr">2019</span>
+                                        <span class="mos">Janeiro</span>
+                                    </div>
+                                </div>
+                                <p>O novo arquétipo de bruxo baseado no sistema D&D 5E, conheça suas habilidades. </p>
+                                <p><a href="#" class="btn btn-primary">Ler mais</a></p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-xl-3 col-lg-4 col-md-6 d-flex ftco-animate">
+                        <div class="blog-entry justify-content-end">
+                            <div class="text px-4 py-4">
+                                <h3 class="heading mb-0"><a href="#" class="white-a">Artigo #7</a></h3>
+                            </div>
+                            <a href="blog-single.html" class="block-20 caseHome" style="background-image: url('images/bruxoarcano.jpg');">
+                            </a>
+                            <div class="text p-4 float-right d-block">
+                                <div class="topper d-flex align-items-center">
+                                    <div class="one py-2 pl-3 pr-1 align-self-stretch">
+                                        <span class="day">8</span>
+                                    </div>
+                                    <div class="two pl-0 pr-3 py-2 align-self-stretch">
+                                        <span class="yr">2019</span>
+                                        <span class="mos">Janeiro</span>
+                                    </div>
+                                </div>
+                                <p>O novo arquétipo de bruxo baseado no sistema D&D 5E, conheça suas habilidades. </p>
+                                <p><a href="#" class="btn btn-primary">Ler mais</a></p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-xl-3 col-lg-4 col-md-6 d-flex ftco-animate">
+                        <div class="blog-entry justify-content-end">
+                            <div class="text px-4 py-4">
+                                <h3 class="heading mb-0"><a href="#" class="white-a">Artigo #8</a></h3>
+                            </div>
+                            <a href="blog-single.html" class="block-20 caseHome" style="background-image: url('images/bruxoarcano.jpg');">
+                            </a>
+                            <div class="text p-4 float-right d-block">
+                                <div class="topper d-flex align-items-center">
+                                    <div class="one py-2 pl-3 pr-1 align-self-stretch">
+                                        <span class="day">8</span>
+                                    </div>
+                                    <div class="two pl-0 pr-3 py-2 align-self-stretch">
+                                        <span class="yr">2019</span>
+                                        <span class="mos">Janeiro</span>
+                                    </div>
+                                </div>
+                                <p>O novo arquétipo de bruxo baseado no sistema D&D 5E, conheça suas habilidades. </p>
+                                <p><a href="#" class="btn btn-primary">Ler mais</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+                
         </section>
         <footer class="ftco-footer ftco-bg-dark ftco-section ">
             <div class="container">

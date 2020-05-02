@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="css/flaticon.css">
         <link rel="stylesheet" href="css/icomoon.css">
         <link rel="stylesheet" href="css/style.css">
+         <link rel="stylesheet" href="css/tdm-style.css">
         <!-- Favicon  -->
         <link rel="icon" href="images/core-img/favicon.ico">    
     </head>
