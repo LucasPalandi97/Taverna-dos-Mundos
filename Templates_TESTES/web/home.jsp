@@ -60,7 +60,7 @@
 	    </div>
 	  </nav>
         <!-- END navhome -->
-        <div class="hero-wrap js-fullheight  " style=" background-color: black;">
+        <div class="hero-wrap js-fullheight" style=" background-color: black;">
 <!--<div class="overlaymenu" style="height: 240px;"><img class='imagehome' src='images/Fundo-barra-de-menu.png'></div>-->
             <div onclick="NoticiasRedirect()" class=" bloco-conteudo  shadowInset col-lg-4 col-md-4 col-sm-12" style=" background-image: url('images/NoticiasRPG.jpg');">
                 <div class="fadedbox">

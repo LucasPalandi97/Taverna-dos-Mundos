@@ -26,8 +26,9 @@
             function HomeRedirect() {
                 window.location.href = "home.jsp";
             }
-        </script>           
-        <nav class="navbarhome px-md-0 navbarhome-expand-lg navbarhome-dark ftco_navbar bg-dark ftco-navbarhome-light" id="ftco-navbarhome">
+        </script>    
+        
+        <nav class="navbarhome px-md-0 navbarhome-expand-lg navbarhome-dark ftco_navbar bg-dark ftco-navbarhome-light" id="ftco-navbarhome" style="background:#0f121a!important;">
             <div class="container">
                 <a class="navbarhome-brand" href="home.jsp"><img  src="images/LogoTDM.png" ></a>
                 <button class="navbarhome-toggler" type="button" data-toggle="collapse" data-target="#ftco-navhome" aria-controls="ftco-navhome" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,8 +46,8 @@
                     </ul>
                 </div>
             </div>
-        </nav>
-        <div><img class="imagehome" src='images/Fundo-barra-de-menu.png'></div>
+        </nav>   
+        <div style="height: 158px"></div>
         <section  class="ftco-section ftco-no-pt bg-dark">
             <div class="container-fluid px-md-5">
                 <div class="row justify-content-center mb-5 pb-3">
