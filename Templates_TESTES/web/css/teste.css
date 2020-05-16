@@ -13,6 +13,10 @@ and open the template in the editor.
     height: 500px;
  display: flex;
 }
+.setor3{
+    height: 288px;
+    position: relative;
+}
 .showcontent{
     height:100%!important;
     width:18px!important;    
@@ -21,16 +25,18 @@ and open the template in the editor.
 .caixalateral{
     display: block;
     height: 100%;
-    width:30%;
 }
 .activecontent{  
    background-color: green;
    width: 70%;
 }
 .caixamundos{
+    left:0;
+    right:0;
     bottom: 0;
     height: 100px;
     display: flex;
+    position: absolute;
 }
 .caixamundos div{
     width: 33.3333%;
@@ -79,7 +85,6 @@ input[type=button], input[type=submit], input[type=reset] {
 
 body {
    height: 100%
-  margin: 0;
 }
 
 ul {
@@ -99,7 +104,6 @@ li a {
   padding: 8px 16px;
   text-decoration: none;
 }
-
 li a.active {
   background-color: #4CAF50;
   color: white;
@@ -107,5 +111,50 @@ li a.active {
 
 li a:hover:not(.active) {
   background-color: #555;
+  color: white;  
+}
+
+
+.sidepanel  {
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  height:500px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
   color: white;
+  
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
 }

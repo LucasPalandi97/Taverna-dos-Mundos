@@ -13,11 +13,9 @@
 </head>
 </head>
 <body>
-
-<h2>Collapsibles</h2>
-
-<p>A Collapsible:</p>
 <div class="forjacontent"> 
+<div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <div class="caixalateral">
 <div class="menulateral">
 <button type="button" class="collapsible">Open Collapsible</button>
@@ -46,21 +44,25 @@
 </div>
 
  </div>
+        <div class="setor3">
 <div class="caixamundos">
     <div style="background: yellow"></div>
     <div style="background: blueviolet"></div>
     <div style="background: red"></div>
 </div>
-      
+      </div>
 
 </div>
-    <input type="button" class="showcontent" value="<">
+  <button class="openbtn" onclick="closeNav()"><</button>  
+</div>
+
+<button class="openbtn" onclick="openNav()"><</button>  
+   
     <div class="activecontent">
         <p> bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p> 
     </div>   
     
 </div>
-
 
 <script>
 var coll = document.getElementsByClassName("collapsible");
@@ -76,6 +78,14 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = content.scrollHeight + "px";
     }
   });
+}
+
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
 }
 </script>
 
