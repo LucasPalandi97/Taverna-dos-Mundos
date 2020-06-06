@@ -55,12 +55,45 @@
 </div>
   <button class="openbtn" onclick="closeNav()"><</button>  
 </div>
-
-<button class="openbtn" onclick="openNav()"><</button>  
-   
-    <div class="activecontent">
-        <p> bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p> 
-    </div>   
+  
+    <div class="activecontent">       
+        <button class="openbtn" onclick="openNav()"><</button> 
+        <div class="conteudo"> 
+            <div style="position: relative; width:auto; height: 250px; background-color: blue; display: block;">
+                 <div style="position: absolute; height: 70px; width: auto; left:0; bottom:0; background-color: yellow;"></div>
+            </div>
+          
+            <div style="position: relative; width:auto; height: 250px; background-color: #fff3cd; overflow-y: scroll;">
+               
+                <div style="position: absolute; padding: 0.5em;">
+                <h1>Titulo</h1>
+                <p>texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto </p>
+                <h1>Titulo</h1>
+                <p>texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto </p>
+                <h1>Titulo</h1>
+                <p>texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto </p>
+                <h1>Titulo</h1>
+                <p>texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto 
+                texto texto texto texto texto texto texto texto texto texto texto texto </p>
+                </div>
+            </div>
+        </div>  
+            </div>
     
 </div>
 
