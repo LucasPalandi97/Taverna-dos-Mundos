@@ -44,7 +44,7 @@ html {
   margin-right: auto;
   margin-left: auto; }
 
-.row {
+.rowNoticias {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
